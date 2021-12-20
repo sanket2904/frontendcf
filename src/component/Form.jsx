@@ -1,7 +1,7 @@
 import * as React from 'react';
 import Stack from '@mui/material/Stack';
 import TextField from '@mui/material/TextField';
-import CloseIcon from '@mui/icons-material/Close';
+// import CloseIcon from '@mui/icons-material/Close';
 import Button from '@mui/material/Button';
 import axios from 'axios';
 export default function TextFieldHiddenLabel({form,num}) {
@@ -36,7 +36,7 @@ export default function TextFieldHiddenLabel({form,num}) {
             autoComplete="off"
         >
 
-            <CloseIcon style={{alignSelf:"end"}} onClick={() => form(false)} />
+//             <CloseIcon style={{alignSelf:"end"}} onClick={() => form(false)} />
             <TextField
                 hiddenLabel
                 id="filled-hidden-label-small"
