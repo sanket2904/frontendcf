@@ -36,7 +36,6 @@ export default function TextFieldHiddenLabel({form,num}) {
             autoComplete="off"
         >
 
-//             <CloseIcon style={{alignSelf:"end"}} onClick={() => form(false)} />
             <TextField
                 hiddenLabel
                 id="filled-hidden-label-small"
