@@ -3,7 +3,7 @@ import './App.css';
 import style from './app.module.css'
 import axios from "axios"
 import Card from "./component/Card"
-import AddCircleIcon from '@mui/icons-material/AddCircle';
+// import AddCircleIcon from '@mui/icons-material/AddCircle';
 import Button from '@mui/material/Button';
 import Form from "./component/Form"
 function App() {
@@ -24,7 +24,7 @@ function App() {
       </div>
      
       <div className={style.setup}>
-        <Button variant="outlined" onClick={() => setForm(true)} startIcon={<AddCircleIcon />}>
+        <Button variant="outlined" onClick={() => setForm(true)} >
           Add
         </Button>
       </div>
